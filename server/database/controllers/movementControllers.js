@@ -10,7 +10,6 @@ const controller = {
     }
   },
   addMovement: async (req, res) => {
-    console.log(req.body);
     try {
       const movement = await Movement.create(req.body);
       res.status(201).json(movement);
