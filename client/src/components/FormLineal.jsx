@@ -47,8 +47,8 @@ function FormLineal() {
           onChange={e => setTypeAmount(e.target.value)}
         >
           <option value="">Tipo de Monto</option>
-          <option value="income">Ingreso</option>
-          <option value="outcome">Egreso</option>
+          <option value="Ingreso">Ingreso</option>
+          <option value="Egreso">Egreso</option>
         </select>
         <input
           type="number"
