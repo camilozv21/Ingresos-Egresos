@@ -10,7 +10,7 @@ function FormLineal() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const newLineal = {
+    const movimiento = {
       date,
       typeAmount,
       amount,
@@ -18,16 +18,15 @@ function FormLineal() {
       description
     };
 
-    const postData = async (newLineal) => {
+    const postData = async (movimiento) => {
       try {
-        const res = await axiosConfig.post('/add', newLineal);
-        console.log(res.data);
+        await axiosConfig.post('/add', movimiento);
       } catch (err) {
         console.log(err);
       }
     };
 
-    postData(newLineal);
+    postData(movimiento);
 
   }
 
