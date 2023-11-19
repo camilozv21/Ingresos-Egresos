@@ -28,6 +28,11 @@ function FormLineal() {
 
     postData(movimiento);
 
+    setDate('');
+    setTypeAmount('');
+    setAmount('');
+    setCategory('');
+    setDescription('');
   }
 
   return (
