@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { BsTrash3 } from "react-icons/bs"
 import { FaPencil } from "react-icons/fa6"
 import Modal from 'react-bootstrap/Modal';
@@ -162,7 +162,7 @@ export const RowMovement = (props) => {
           </form>
         </Modal.Body>
       </Modal>
-      <Modal show={showModalDelete} onHide={handleCloseDelete}>
+      <Modal show={showModalDelete} onHide={handleCloseDelete} centered>
         <Modal.Header closeButton>
           <Modal.Title className="text-xl font-bold">Editar Movimiento</Modal.Title>
         </Modal.Header>
