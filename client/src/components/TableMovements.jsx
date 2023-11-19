@@ -20,11 +20,11 @@ export const TableMovements = () => {
     <table className="min-w-full table-auto hover:table-fixed mt-11">
       <thead className="justify-between border">
         <tr>
-          <th className="px-4 py-2">Fecha</th>
-          <th className="px-4 py-2">Tipo de Monto</th>
-          <th className="px-4 py-2">Monto</th>
-          <th className="px-4 py-2">Categoria</th>
-          <th className="px-4 py-2">Descripcion</th>
+          <th className="px-4 py-2 text-center">Fecha</th>
+          <th className="px-4 py-2 text-center">Tipo de Monto</th>
+          <th className="px-4 py-2 text-center">Monto</th>
+          <th className="px-4 py-2 text-center">Categoria</th>
+          <th className="px-4 py-2 text-center">Descripcion</th>
         </tr>
       </thead>
       <tbody className="bg-gray-200">
@@ -36,6 +36,7 @@ export const TableMovements = () => {
               mount={item.amount}
               category={item.category}
               description={item.description}
+              id={item._id}
             />
           </tr>
         ))}
