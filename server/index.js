@@ -15,4 +15,4 @@ app.use(cors());
 
 app.use("/api", require("./database/routes/movementsRoutes"));
 
-app.listen(port, console.log(`Server is running on http://localhost:${port}`.magenta.bold));
+app.listen(port, console.log(`Server is running on https://ingresos-egresos.vercel.app`.magenta.bold));
