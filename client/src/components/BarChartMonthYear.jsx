@@ -58,7 +58,6 @@ export const BarChartMonthYear = () => {
     const year = Number(item.name.split(' ')[1]);
     return year === Number(selectedYear);
   });
-
   return (
     <>
       <h1 className='text-left text-lg font-semibold self-start container py-8'>Ingresos y Egresos por mes y por año</h1>
