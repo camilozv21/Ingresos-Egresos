@@ -65,6 +65,7 @@ function FormLineal() {
           onChange={e => setCategory(e.target.value)}
         >
           <option value="">Categoría</option>x
+          <option value="Pago Nomina">Pago Nomina</option>
           <option value="Transporte">Transporte</option>
           <option value="Comida">Comida</option>
           <option value="Cuota Mensual Padres">Cuota Mensual Padres</option>
