@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import NotFound from "./pages/NotFound";
 import { NavigationBar } from "./components/NavigationBar";
 import { Home } from "./pages/Home";
-import { Charts } from "./components/Charts";
+import { Charts } from "./pages/Charts";
 
 function App() {
   return (
