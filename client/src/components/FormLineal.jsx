@@ -75,6 +75,7 @@ function FormLineal() {
           <option value="Comida">Comida</option>
           <option value="Cuota Mensual Padres">Cuota Mensual Padres</option>
           <option value="Ahorro Confiar">Ahorro Confiar</option>
+          <option value="Natillera">Natillera</option>
           <option value="Otro">Otro</option>
         </select>
         <textarea
